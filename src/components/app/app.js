@@ -4,7 +4,6 @@ import './app.css';
 
 //components
 import Product from '../product/product';
-import WishList from '../wishlist/wishlist';
 
 //services
 const http = new HttpService();
@@ -53,7 +52,6 @@ class App extends React.Component {
             </div>
           </div>
           <div className="col-sm-4">
-            <WishList />
           </div>
         </div>
 
